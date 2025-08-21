@@ -5,8 +5,6 @@
 !.gitignore
 
 # Track all justfile files everywhere
-!justfile
-!*/justfile
 !**/justfile
 
 # Ignore justfile in the 'ton' directory
