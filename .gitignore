@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# Do not ignore .gitignore itself
+!.gitignore
+
+# Track all justfile files everywhere
+!justfile
+!*/justfile
+!**/justfile
+
+# Ignore justfile in the 'ton' directory
+.config/nix-config/justfile
+
